@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62FCA381455D91F002DB9C0 /* ConnectingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FCA361455D91F002DB9C0 /* ConnectingViewController.m */; };
+		B62FCA391455D91F002DB9C0 /* ConnectingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62FCA371455D91F002DB9C0 /* ConnectingViewController.xib */; };
+		B673BF1E145D0ED500B527EA /* curved-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B673BF1D145D0ED500B527EA /* curved-icon.png */; };
+		B673BF22145D4FFC00B527EA /* Wijourno.m in Sources */ = {isa = PBXBuildFile; fileRef = B673BF21145D4FFC00B527EA /* Wijourno.m */; };
+		B67DAA6F1451BCF700CF0CDA /* MeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67DAA6E1451BCF600CF0CDA /* MeterView.m */; };
+		B67DAA711451BD5300CF0CDA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67DAA701451BD5300CF0CDA /* QuartzCore.framework */; };
+		B67DAA771451CF7600CF0CDA /* ViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = B67DAA761451CF7600CF0CDA /* ViewController_iPad.m */; };
+		B6BE56D51459051200F5EE8B /* background-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56D21459051200F5EE8B /* background-ipad.png */; };
+		B6BE56D61459051200F5EE8B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56D31459051200F5EE8B /* background.png */; };
+		B6BE56D71459051200F5EE8B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56D41459051200F5EE8B /* background@2x.png */; };
+		B6BE56DB14590F1B00F5EE8B /* border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56D914590F1B00F5EE8B /* border@2x.png */; };
+		B6BE56DC14590F1B00F5EE8B /* meterbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56DA14590F1B00F5EE8B /* meterbg@2x.png */; };
+		B6BE56DE14590F4800F5EE8B /* meterbg.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56DD14590F4700F5EE8B /* meterbg.png */; };
+		B6BE56E31459108D00F5EE8B /* button-down.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56DF1459108D00F5EE8B /* button-down.png */; };
+		B6BE56E41459108D00F5EE8B /* button-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56E01459108D00F5EE8B /* button-down@2x.png */; };
+		B6BE56E51459108D00F5EE8B /* button-up.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56E11459108D00F5EE8B /* button-up.png */; };
+		B6BE56E61459108D00F5EE8B /* button-up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56E21459108D00F5EE8B /* button-up@2x.png */; };
+		B6BE56EA14591CB200F5EE8B /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56E814591CB200F5EE8B /* click.caf */; };
+		B6BE56EB14591CB200F5EE8B /* clock.caf in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56E914591CB200F5EE8B /* clock.caf */; };
+		B6BE56ED145922BD00F5EE8B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BE56EC145922BD00F5EE8B /* AudioToolbox.framework */; };
+		B6BE56EF145933B800F5EE8B /* ConnectingViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56EE145933B800F5EE8B /* ConnectingViewController-iPad.xib */; };
+		B6BE56F51459A85C00F5EE8B /* Icon-AppStore.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56F01459A85B00F5EE8B /* Icon-AppStore.png */; };
+		B6BE56F61459A85C00F5EE8B /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56F11459A85B00F5EE8B /* Icon-iPad.png */; };
+		B6BE56F71459A85C00F5EE8B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56F21459A85B00F5EE8B /* Icon.png */; };
+		B6BE56F91459A85C00F5EE8B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56F41459A85C00F5EE8B /* Icon@2x.png */; };
+		B6BE56FD1459C78B00F5EE8B /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE56FB1459C78B00F5EE8B /* InfoViewController.m */; };
+		B6BE56FE1459C78B00F5EE8B /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56FC1459C78B00F5EE8B /* InfoViewController.xib */; };
+		B6BE57001459CAA100F5EE8B /* InfoViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BE56FF1459CAA100F5EE8B /* InfoViewController-iPad.xib */; };
+		B6BE570F1459DAB400F5EE8B /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE570C1459DAB400F5EE8B /* Default-Landscape.png */; };
+		B6BE57111459DAB400F5EE8B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE570E1459DAB400F5EE8B /* Default@2x.png */; };
+		B6BE5712145A6C4100F5EE8B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE570D1459DAB400F5EE8B /* Default.png */; };
+		B6BE5714145A6E3200F5EE8B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE5713145A6E3200F5EE8B /* Default-Portrait.png */; };
+		B6D0168F1450AD3A001C1060 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D0168E1450AD3A001C1060 /* UIKit.framework */; };
+		B6D016911450AD3A001C1060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D016901450AD3A001C1060 /* Foundation.framework */; };
+		B6D016931450AD3A001C1060 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D016921450AD3A001C1060 /* CoreGraphics.framework */; };
+		B6D016991450AD3A001C1060 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6D016971450AD3A001C1060 /* InfoPlist.strings */; };
+		B6D0169B1450AD3A001C1060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D0169A1450AD3A001C1060 /* main.m */; };
+		B6D0169F1450AD3A001C1060 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D0169E1450AD3A001C1060 /* AppDelegate.m */; };
+		B6D016A21450AD3A001C1060 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D016A11450AD3A001C1060 /* ViewController.m */; };
+		B6D016A51450AD3A001C1060 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D016A31450AD3A001C1060 /* ViewController_iPhone.xib */; };
+		B6D016A81450AD3A001C1060 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D016A61450AD3A001C1060 /* ViewController_iPad.xib */; };
+		B6D016B11450B14A001C1060 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D016AF1450B14A001C1060 /* border.png */; };
+		B6F747651451D622007CEA0F /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F747591451D622007CEA0F /* DDAbstractDatabaseLogger.m */; };
+		B6F747661451D622007CEA0F /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F7475B1451D622007CEA0F /* DDASLLogger.m */; };
+		B6F747671451D622007CEA0F /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F7475D1451D622007CEA0F /* DDFileLogger.m */; };
+		B6F747681451D622007CEA0F /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F7475F1451D622007CEA0F /* DDLog.m */; };
+		B6F747691451D622007CEA0F /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F747611451D622007CEA0F /* DDTTYLogger.m */; };
+		B6F7476A1451D622007CEA0F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F747641451D622007CEA0F /* GCDAsyncSocket.m */; };
+		B6F7476E1451D65F007CEA0F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F7476D1451D65F007CEA0F /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B62FCA351455D91F002DB9C0 /* ConnectingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectingViewController.h; sourceTree = "<group>"; };
+		B62FCA361455D91F002DB9C0 /* ConnectingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectingViewController.m; sourceTree = "<group>"; };
+		B62FCA371455D91F002DB9C0 /* ConnectingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectingViewController.xib; sourceTree = "<group>"; };
+		B673BF1D145D0ED500B527EA /* curved-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "curved-icon.png"; sourceTree = SOURCE_ROOT; };
+		B673BF1F145D4FFC00B527EA /* Wijourno_tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wijourno_tags.h; sourceTree = "<group>"; };
+		B673BF20145D4FFC00B527EA /* Wijourno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wijourno.h; sourceTree = "<group>"; };
+		B673BF21145D4FFC00B527EA /* Wijourno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wijourno.m; sourceTree = "<group>"; };
+		B67DAA6D1451BCF600CF0CDA /* MeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterView.h; sourceTree = "<group>"; };
+		B67DAA6E1451BCF600CF0CDA /* MeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterView.m; sourceTree = "<group>"; };
+		B67DAA701451BD5300CF0CDA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B67DAA751451CF7600CF0CDA /* ViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_iPad.h; sourceTree = "<group>"; };
+		B67DAA761451CF7600CF0CDA /* ViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_iPad.m; sourceTree = "<group>"; };
+		B6BE56D21459051200F5EE8B /* background-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-ipad.png"; sourceTree = "<group>"; };
+		B6BE56D31459051200F5EE8B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B6BE56D41459051200F5EE8B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		B6BE56D914590F1B00F5EE8B /* border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "border@2x.png"; sourceTree = "<group>"; };
+		B6BE56DA14590F1B00F5EE8B /* meterbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meterbg@2x.png"; sourceTree = "<group>"; };
+		B6BE56DD14590F4700F5EE8B /* meterbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meterbg.png; sourceTree = "<group>"; };
+		B6BE56DF1459108D00F5EE8B /* button-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-down.png"; sourceTree = "<group>"; };
+		B6BE56E01459108D00F5EE8B /* button-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-down@2x.png"; sourceTree = "<group>"; };
+		B6BE56E11459108D00F5EE8B /* button-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-up.png"; sourceTree = "<group>"; };
+		B6BE56E21459108D00F5EE8B /* button-up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-up@2x.png"; sourceTree = "<group>"; };
+		B6BE56E814591CB200F5EE8B /* click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.caf; sourceTree = "<group>"; };
+		B6BE56E914591CB200F5EE8B /* clock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock.caf; sourceTree = "<group>"; };
+		B6BE56EC145922BD00F5EE8B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6BE56EE145933B800F5EE8B /* ConnectingViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ConnectingViewController-iPad.xib"; sourceTree = "<group>"; };
+		B6BE56F01459A85B00F5EE8B /* Icon-AppStore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-AppStore.png"; sourceTree = SOURCE_ROOT; };
+		B6BE56F11459A85B00F5EE8B /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = SOURCE_ROOT; };
+		B6BE56F21459A85B00F5EE8B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		B6BE56F41459A85C00F5EE8B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		B6BE56FA1459C78B00F5EE8B /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		B6BE56FB1459C78B00F5EE8B /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		B6BE56FC1459C78B00F5EE8B /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		B6BE56FF1459CAA100F5EE8B /* InfoViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "InfoViewController-iPad.xib"; sourceTree = "<group>"; };
+		B6BE570C1459DAB400F5EE8B /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = SOURCE_ROOT; };
+		B6BE570D1459DAB400F5EE8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		B6BE570E1459DAB400F5EE8B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		B6BE5713145A6E3200F5EE8B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = SOURCE_ROOT; };
+		B6D0168A1450AD3A001C1060 /* Meters for Arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meters for Arduino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D0168E1450AD3A001C1060 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6D016901450AD3A001C1060 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6D016921450AD3A001C1060 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6D016961450AD3A001C1060 /* MetersForArduino-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetersForArduino-iOS-Info.plist"; sourceTree = "<group>"; };
+		B6D016981450AD3A001C1060 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6D0169A1450AD3A001C1060 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D0169C1450AD3A001C1060 /* MetersForArduino-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetersForArduino-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		B6D0169D1450AD3A001C1060 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6D0169E1450AD3A001C1060 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6D016A01450AD3A001C1060 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6D016A11450AD3A001C1060 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6D016A41450AD3A001C1060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B6D016A71450AD3A001C1060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B6D016AF1450B14A001C1060 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border.png; sourceTree = "<group>"; };
+		B6F747581451D622007CEA0F /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		B6F747591451D622007CEA0F /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		B6F7475A1451D622007CEA0F /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		B6F7475B1451D622007CEA0F /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		B6F7475C1451D622007CEA0F /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		B6F7475D1451D622007CEA0F /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		B6F7475E1451D622007CEA0F /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		B6F7475F1451D622007CEA0F /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		B6F747601451D622007CEA0F /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		B6F747611451D622007CEA0F /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		B6F747631451D622007CEA0F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B6F747641451D622007CEA0F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B6F7476B1451D64A007CEA0F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6F7476D1451D65F007CEA0F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D016871450AD3A001C1060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE56ED145922BD00F5EE8B /* AudioToolbox.framework in Frameworks */,
+				B6F7476E1451D65F007CEA0F /* CFNetwork.framework in Frameworks */,
+				B67DAA711451BD5300CF0CDA /* QuartzCore.framework in Frameworks */,
+				B6D0168F1450AD3A001C1060 /* UIKit.framework in Frameworks */,
+				B6D016911450AD3A001C1060 /* Foundation.framework in Frameworks */,
+				B6D016931450AD3A001C1060 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6BE56E714591CB200F5EE8B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE56E814591CB200F5EE8B /* click.caf */,
+				B6BE56E914591CB200F5EE8B /* clock.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B6BE5715145A70EF00F5EE8B /* Wijourno */ = {
+			isa = PBXGroup;
+			children = (
+				B673BF1F145D4FFC00B527EA /* Wijourno_tags.h */,
+				B673BF20145D4FFC00B527EA /* Wijourno.h */,
+				B673BF21145D4FFC00B527EA /* Wijourno.m */,
+			);
+			path = Wijourno;
+			sourceTree = "<group>";
+		};
+		B6D0167F1450AD37001C1060 = {
+			isa = PBXGroup;
+			children = (
+				B6BE5715145A70EF00F5EE8B /* Wijourno */,
+				B6BE56E714591CB200F5EE8B /* Sounds */,
+				B6F747571451D622007CEA0F /* CocoaLumberjack */,
+				B6F747621451D622007CEA0F /* GCDAsyncSocket */,
+				B6D016AE1450B14A001C1060 /* Images */,
+				B6D016941450AD3A001C1060 /* MetersForArduino-iOS */,
+				B6D0168D1450AD3A001C1060 /* Frameworks */,
+				B6D0168B1450AD3A001C1060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D0168B1450AD3A001C1060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D0168A1450AD3A001C1060 /* Meters for Arduino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D0168D1450AD3A001C1060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE56EC145922BD00F5EE8B /* AudioToolbox.framework */,
+				B6F7476D1451D65F007CEA0F /* CFNetwork.framework */,
+				B6F7476B1451D64A007CEA0F /* Security.framework */,
+				B67DAA701451BD5300CF0CDA /* QuartzCore.framework */,
+				B6D0168E1450AD3A001C1060 /* UIKit.framework */,
+				B6D016901450AD3A001C1060 /* Foundation.framework */,
+				B6D016921450AD3A001C1060 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6D016941450AD3A001C1060 /* MetersForArduino-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B67DAA751451CF7600CF0CDA /* ViewController_iPad.h */,
+				B67DAA761451CF7600CF0CDA /* ViewController_iPad.m */,
+				B67DAA6D1451BCF600CF0CDA /* MeterView.h */,
+				B67DAA6E1451BCF600CF0CDA /* MeterView.m */,
+				B6D0169D1450AD3A001C1060 /* AppDelegate.h */,
+				B6D0169E1450AD3A001C1060 /* AppDelegate.m */,
+				B6D016A01450AD3A001C1060 /* ViewController.h */,
+				B6D016A11450AD3A001C1060 /* ViewController.m */,
+				B6D016A31450AD3A001C1060 /* ViewController_iPhone.xib */,
+				B6D016A61450AD3A001C1060 /* ViewController_iPad.xib */,
+				B62FCA351455D91F002DB9C0 /* ConnectingViewController.h */,
+				B62FCA361455D91F002DB9C0 /* ConnectingViewController.m */,
+				B62FCA371455D91F002DB9C0 /* ConnectingViewController.xib */,
+				B6BE56EE145933B800F5EE8B /* ConnectingViewController-iPad.xib */,
+				B6BE56FA1459C78B00F5EE8B /* InfoViewController.h */,
+				B6BE56FB1459C78B00F5EE8B /* InfoViewController.m */,
+				B6BE56FC1459C78B00F5EE8B /* InfoViewController.xib */,
+				B6BE56FF1459CAA100F5EE8B /* InfoViewController-iPad.xib */,
+				B6D016951450AD3A001C1060 /* Supporting Files */,
+			);
+			path = "MetersForArduino-iOS";
+			sourceTree = "<group>";
+		};
+		B6D016951450AD3A001C1060 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE5713145A6E3200F5EE8B /* Default-Portrait.png */,
+				B6BE570C1459DAB400F5EE8B /* Default-Landscape.png */,
+				B6BE570D1459DAB400F5EE8B /* Default.png */,
+				B6BE570E1459DAB400F5EE8B /* Default@2x.png */,
+				B6BE56F01459A85B00F5EE8B /* Icon-AppStore.png */,
+				B6BE56F11459A85B00F5EE8B /* Icon-iPad.png */,
+				B6BE56F21459A85B00F5EE8B /* Icon.png */,
+				B6BE56F41459A85C00F5EE8B /* Icon@2x.png */,
+				B6D016961450AD3A001C1060 /* MetersForArduino-iOS-Info.plist */,
+				B6D016971450AD3A001C1060 /* InfoPlist.strings */,
+				B6D0169A1450AD3A001C1060 /* main.m */,
+				B6D0169C1450AD3A001C1060 /* MetersForArduino-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6D016AE1450B14A001C1060 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B673BF1D145D0ED500B527EA /* curved-icon.png */,
+				B6BE56DF1459108D00F5EE8B /* button-down.png */,
+				B6BE56E01459108D00F5EE8B /* button-down@2x.png */,
+				B6BE56E11459108D00F5EE8B /* button-up.png */,
+				B6BE56E21459108D00F5EE8B /* button-up@2x.png */,
+				B6BE56D914590F1B00F5EE8B /* border@2x.png */,
+				B6BE56DD14590F4700F5EE8B /* meterbg.png */,
+				B6BE56DA14590F1B00F5EE8B /* meterbg@2x.png */,
+				B6BE56D21459051200F5EE8B /* background-ipad.png */,
+				B6BE56D31459051200F5EE8B /* background.png */,
+				B6BE56D41459051200F5EE8B /* background@2x.png */,
+				B6D016AF1450B14A001C1060 /* border.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B6F747571451D622007CEA0F /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				B6F747581451D622007CEA0F /* DDAbstractDatabaseLogger.h */,
+				B6F747591451D622007CEA0F /* DDAbstractDatabaseLogger.m */,
+				B6F7475A1451D622007CEA0F /* DDASLLogger.h */,
+				B6F7475B1451D622007CEA0F /* DDASLLogger.m */,
+				B6F7475C1451D622007CEA0F /* DDFileLogger.h */,
+				B6F7475D1451D622007CEA0F /* DDFileLogger.m */,
+				B6F7475E1451D622007CEA0F /* DDLog.h */,
+				B6F7475F1451D622007CEA0F /* DDLog.m */,
+				B6F747601451D622007CEA0F /* DDTTYLogger.h */,
+				B6F747611451D622007CEA0F /* DDTTYLogger.m */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		B6F747621451D622007CEA0F /* GCDAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B6F747631451D622007CEA0F /* GCDAsyncSocket.h */,
+				B6F747641451D622007CEA0F /* GCDAsyncSocket.m */,
+			);
+			path = GCDAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D016891450AD3A001C1060 /* MetersForArduino-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D016AB1450AD3A001C1060 /* Build configuration list for PBXNativeTarget "MetersForArduino-iOS" */;
+			buildPhases = (
+				B6D016861450AD3A001C1060 /* Sources */,
+				B6D016871450AD3A001C1060 /* Frameworks */,
+				B6D016881450AD3A001C1060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetersForArduino-iOS";
+			productName = "MetersForArduino-iOS";
+			productReference = B6D0168A1450AD3A001C1060 /* Meters for Arduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D016811450AD37001C1060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = robotgrrl.com;
+			};
+			buildConfigurationList = B6D016841450AD37001C1060 /* Build configuration list for PBXProject "MetersForArduino-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6D0167F1450AD37001C1060;
+			productRefGroup = B6D0168B1450AD3A001C1060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D016891450AD3A001C1060 /* MetersForArduino-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D016881450AD3A001C1060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D016991450AD3A001C1060 /* InfoPlist.strings in Resources */,
+				B6D016A51450AD3A001C1060 /* ViewController_iPhone.xib in Resources */,
+				B6D016A81450AD3A001C1060 /* ViewController_iPad.xib in Resources */,
+				B6D016B11450B14A001C1060 /* border.png in Resources */,
+				B62FCA391455D91F002DB9C0 /* ConnectingViewController.xib in Resources */,
+				B6BE56D51459051200F5EE8B /* background-ipad.png in Resources */,
+				B6BE56D61459051200F5EE8B /* background.png in Resources */,
+				B6BE56D71459051200F5EE8B /* background@2x.png in Resources */,
+				B6BE56DB14590F1B00F5EE8B /* border@2x.png in Resources */,
+				B6BE56DC14590F1B00F5EE8B /* meterbg@2x.png in Resources */,
+				B6BE56DE14590F4800F5EE8B /* meterbg.png in Resources */,
+				B6BE56E31459108D00F5EE8B /* button-down.png in Resources */,
+				B6BE56E41459108D00F5EE8B /* button-down@2x.png in Resources */,
+				B6BE56E51459108D00F5EE8B /* button-up.png in Resources */,
+				B6BE56E61459108D00F5EE8B /* button-up@2x.png in Resources */,
+				B6BE56EA14591CB200F5EE8B /* click.caf in Resources */,
+				B6BE56EB14591CB200F5EE8B /* clock.caf in Resources */,
+				B6BE56EF145933B800F5EE8B /* ConnectingViewController-iPad.xib in Resources */,
+				B6BE56F51459A85C00F5EE8B /* Icon-AppStore.png in Resources */,
+				B6BE56F61459A85C00F5EE8B /* Icon-iPad.png in Resources */,
+				B6BE56F71459A85C00F5EE8B /* Icon.png in Resources */,
+				B6BE56F91459A85C00F5EE8B /* Icon@2x.png in Resources */,
+				B6BE56FE1459C78B00F5EE8B /* InfoViewController.xib in Resources */,
+				B6BE57001459CAA100F5EE8B /* InfoViewController-iPad.xib in Resources */,
+				B6BE570F1459DAB400F5EE8B /* Default-Landscape.png in Resources */,
+				B6BE57111459DAB400F5EE8B /* Default@2x.png in Resources */,
+				B6BE5712145A6C4100F5EE8B /* Default.png in Resources */,
+				B6BE5714145A6E3200F5EE8B /* Default-Portrait.png in Resources */,
+				B673BF1E145D0ED500B527EA /* curved-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D016861450AD3A001C1060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D0169B1450AD3A001C1060 /* main.m in Sources */,
+				B6D0169F1450AD3A001C1060 /* AppDelegate.m in Sources */,
+				B6D016A21450AD3A001C1060 /* ViewController.m in Sources */,
+				B67DAA6F1451BCF700CF0CDA /* MeterView.m in Sources */,
+				B67DAA771451CF7600CF0CDA /* ViewController_iPad.m in Sources */,
+				B6F747651451D622007CEA0F /* DDAbstractDatabaseLogger.m in Sources */,
+				B6F747661451D622007CEA0F /* DDASLLogger.m in Sources */,
+				B6F747671451D622007CEA0F /* DDFileLogger.m in Sources */,
+				B6F747681451D622007CEA0F /* DDLog.m in Sources */,
+				B6F747691451D622007CEA0F /* DDTTYLogger.m in Sources */,
+				B6F7476A1451D622007CEA0F /* GCDAsyncSocket.m in Sources */,
+				B62FCA381455D91F002DB9C0 /* ConnectingViewController.m in Sources */,
+				B6BE56FD1459C78B00F5EE8B /* InfoViewController.m in Sources */,
+				B673BF22145D4FFC00B527EA /* Wijourno.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6D016971450AD3A001C1060 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D016981450AD3A001C1060 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6D016A31450AD3A001C1060 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D016A41450AD3A001C1060 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B6D016A61450AD3A001C1060 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D016A71450AD3A001C1060 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6D016A91450AD3A001C1060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6D016AA1450AD3A001C1060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6D016AC1450AD3A001C1060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetersForArduino-iOS/MetersForArduino-iOS-Prefix.pch";
+				INFOPLIST_FILE = "MetersForArduino-iOS/MetersForArduino-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "Meters for Arduino";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6D016AD1450AD3A001C1060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CVL Wireless";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetersForArduino-iOS/MetersForArduino-iOS-Prefix.pch";
+				INFOPLIST_FILE = "MetersForArduino-iOS/MetersForArduino-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "Meters for Arduino";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "990140A0-F56E-4CD4-934E-D8E4EFE2AF3D";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D016841450AD37001C1060 /* Build configuration list for PBXProject "MetersForArduino-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D016A91450AD3A001C1060 /* Debug */,
+				B6D016AA1450AD3A001C1060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D016AB1450AD3A001C1060 /* Build configuration list for PBXNativeTarget "MetersForArduino-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D016AC1450AD3A001C1060 /* Debug */,
+				B6D016AD1450AD3A001C1060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D016811450AD37001C1060 /* Project object */;
+}
